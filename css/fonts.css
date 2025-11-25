@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Mansalva';
+    src: url('../fonts/mansalva/Mansalva-Regular.woff2') format('woff2'),
+        url('../fonts/mansalva/Mansalva-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mynerve';
+    src: url('../fonts/mynerve/Mynerve-Regular.woff2') format('woff2'),
+        url('../fonts/mynerve/Mynerve-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zen Kurenaido';
+    src: url('../fonts/ZenKurenaido/ZenKurenaido-Regular.woff2') format('woff2'),
+        url('../fonts/ZenKurenaido/ZenKurenaido-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'miama';
+    src: url('../fonts/miama/Miama.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
