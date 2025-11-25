@@ -110,7 +110,6 @@ h2 {
 
 .center-items {
     display: flex; /* 1. Enable Flex context */
-    align-items: center; /* 2. Vertically center the child(ren) */
-    flex-direction: column; /* 3. (Optional) If you need horizontal centering too */
+    align-items: flex-end; /* 2. Vertically center the child(ren) */
     height: 100vh; /* 4. Parent must have a defined height */
 }
