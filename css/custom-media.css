@@ -34,8 +34,9 @@
 
     .church {
         margin-top: 10px;
-        font-size: 1em !important;
+        font-size: 1.3em !important;
         font-weight: bold;
+        line-height: 1.2em;
     }
 
     hr {
