@@ -412,7 +412,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
   padding: 30px;
   width: 100%;
   float: left;
@@ -1345,7 +1345,7 @@ form label {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(12, 10, 66, 0.4);
 }
 #fh5co-started .fh5co-heading h2 {
   color: #fff;

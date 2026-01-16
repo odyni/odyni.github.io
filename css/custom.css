@@ -19,6 +19,15 @@ html{scroll-behavior:smooth}
     margin-bottom: 3em !important;
 }
 
+.child-names {
+    /* margin-top: 20px;  
+    margin-bottom: 30px; */
+    font-family: 'miama', 'serif' !important;
+    font-size: 8em !important;
+    line-height: 1.2em !important;
+    font-weight: bold;
+}
+
 .family-names {
     margin-top: 20px;  
     margin-bottom: 30px;
@@ -69,26 +78,26 @@ html{scroll-behavior:smooth}
     margin-top: 20px;
 }
 
-@media screen and (max-width: 900px) {
-    .main-names {
-      font-size: 3em !important;
-    }
+.fh5co-nav {
+    padding: 15px 0 !important;
+}
 
+@media screen and (max-width: 900px) {
     .fh5co-nav #fh5co-logo {
         font-size: 0.5em !important;
     }
 
     .main-names {
         font-family: 'Mansalva', 'serif' !important;
-        font-size: 3em !important;
+        font-size: 1.5em !important;
     }
 
     .strong-dt {
-        font-size: 1.1em !important;;
+        font-size: 1.6em !important;;
     }
 
     .light-dt {
-        font-size: 0.9em !important;;
+        font-size: 1.3em !important;;
     }
 
     .simply-countdown {
@@ -109,7 +118,8 @@ html{scroll-behavior:smooth}
 
     .church {
         margin-top: 10px;
-        font-size: 0.8em !important;
+        font-size: 1em !important;
+        font-weight: bold;
     }
 
     hr {
@@ -124,21 +134,21 @@ html{scroll-behavior:smooth}
     .center-items {
         align-items: center !important;
     }
-}
-@media screen and (max-width: 480px) {
-    .main-names {
-        font-size: 3em !important;
+
+    .fh5co-nav {
+        display: 'none';
     }
 
-    .fh5co-nav #fh5co-logo {
-        font-size: 1.5em;
+    .child-names {
+        font-size: 4em !important;
+        line-height: 1em !important;
     }
 
-    .main-names {
-        font-family: 'Mansalva', 'serif' !important;
-        font-size: 2em !important;
+    .date-col {
+        line-height: 1.7em !important;
     }
 }
+
 
 /* #monogram {
     height: 1em;
@@ -181,4 +191,9 @@ h2 {
     display: flex; /* 1. Enable Flex context */
     align-items: flex-end; /* 2. Vertically center the child(ren) */
     height: 100vh; /* 4. Parent must have a defined height */
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
 }
